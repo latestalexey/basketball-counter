@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">CourtCounter2</string>
+    <string name="app_name">🏀 Basketball Score Keeper 🏀</string>
+    <string name="score_team_a">TEAM A</string>
+    <string name="score_team_b">TEAM B</string>
+    <string name="start_score_team_a">0</string>
+    <string name="start_score_team_b">0</string>
+    <string name="plus_3_A">+3 POINTS</string>
+    <string name="plus_3_B">+3 POINTS</string>
+    <string name="plus_2_A">+2 POINTS</string>
+    <string name="plus_2_B">+2 POINTS</string>
+    <string name="plus_1_A">+1 POINT</string>
+    <string name="plus_1_B">+1 POINT</string>
+    <string name="free_throw_A">FREE THROW</string>
+    <string name="free_throw_B">FREE THROW</string>
+    <string name="reset">RESET</string>
 </resources>
