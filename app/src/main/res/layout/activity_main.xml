@@ -22,9 +22,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
+                android:paddingTop="30dp"
                 android:text="@string/score_team_a"
                 android:textColor="#FFFFFF"
+                android:textSize="16dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -35,7 +36,9 @@
                 android:padding="4dp"
                 android:text="@string/start_score_team_a"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
 
             <Button
                 android:layout_width="match_parent"
@@ -43,7 +46,8 @@
                 android:layout_margin="8dp"
                 android:onClick="addThreeForTeamA"
                 android:text="@string/plus_3_A"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:padding="16dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -51,7 +55,8 @@
                 android:layout_margin="8dp"
                 android:onClick="addTwoForTeamA"
                 android:text="@string/plus_2_A"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:padding="16dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -59,14 +64,15 @@
                 android:layout_margin="8dp"
                 android:onClick="addOneForTeamA"
                 android:text="@string/free_throw_A"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:padding="16dp"/>
 
         </LinearLayout>
 
         <View
             android:layout_width="3dp"
-            android:layout_height="235dp"
-            android:background="#212121" />
+            android:layout_height="270dp"
+            android:background="#000000" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -78,10 +84,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
+                android:paddingTop="30dp"
                 android:text="@string/score_team_b"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="16dp"/>
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -91,7 +98,8 @@
                 android:padding="4dp"
                 android:text="@string/start_score_team_b"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textSize="16dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -99,7 +107,8 @@
                 android:layout_margin="8dp"
                 android:onClick="addThreeForTeamB"
                 android:text="@string/plus_3_B"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:padding="16dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -107,7 +116,8 @@
                 android:layout_margin="8dp"
                 android:onClick="addTwoForTeamB"
                 android:text="@string/plus_2_B"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:padding="16dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -115,7 +125,8 @@
                 android:layout_margin="8dp"
                 android:onClick="addOneForTeamB"
                 android:text="@string/free_throw_B"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:padding="16dp"/>
 
 
         </LinearLayout>
@@ -126,8 +137,10 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
+
         android:layout_centerHorizontal="true"
         android:onClick="resetScore"
+        android:paddingBottom="6dp"
         android:text="@string/reset"
         android:textColor="#FFFFFF" />
 
